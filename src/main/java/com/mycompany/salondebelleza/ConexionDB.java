@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexionDB {
-    private static final String URL = "jdbc:postgresql://localhost:5432/salon_belleza"; // Asegúrate de que el nombre y puerto sean correctos
-    private static final String USER = "postgres"; // Tu usuario de PostgreSQL
-    private static final String PASSWORD = "tu_contraseña"; // Tu contraseña de PostgreSQL
+    private static final String URL = "jdbc:postgresql://localhost:5432/salon_belleza";
+    private static final String USER = "postgres"; 
+    private static final String PASSWORD = "0000"; 
     
     public static Connection conectar() {
         try {
