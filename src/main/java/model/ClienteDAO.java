@@ -1,6 +1,10 @@
 
 package com.mycompany.salondebelleza;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
 public class ClienteDAO {
     public static void insertarClientes() {
         insertarCliente("Juan", "Pérez", "juanperez@gmail.com", "3001234567", "Calle 123, Bogotá");

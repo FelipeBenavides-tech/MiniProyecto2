@@ -1,5 +1,10 @@
 
-package com.mycompany.salondebelleza;
+package model;
+
+import com.mycompany.salondebelleza.ConexionDB;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public class ProductoDAO {
     public static void insertarProductos() {
